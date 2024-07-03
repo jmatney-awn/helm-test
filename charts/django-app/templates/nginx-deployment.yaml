@@ -48,5 +48,5 @@ spec:
               subPath: default
               name: nginx
               readOnly: true
-            - mountPath: "/data/static"
+            - mountPath: /autosstatic/static
               name: staticfiles
