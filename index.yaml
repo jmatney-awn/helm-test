@@ -3,6 +3,16 @@ entries:
   django-app:
   - apiVersion: v1
     appVersion: 1.16.0
+    created: "2024-07-03T05:17:20.527181194Z"
+    description: A Helm chart for Kubernetes
+    digest: 4aa5762625a5921546b7a187fd1eaf9d0c554617acd282253a622596d1f50221
+    name: django-app
+    type: application
+    urls:
+    - https://github.com/jmatney-awn/helm-test/releases/download/django-app-0.1.4/django-app-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 1.16.0
     created: "2024-07-03T03:49:48.57916382Z"
     description: A Helm chart for Kubernetes
     digest: 1cc29930fb8b049af14df6d49152d7ee4c13a31d0f9f5807696690b120f68be4
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/jmatney-awn/helm-test/releases/download/django-app-0.1.0/django-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-03T03:49:48.579186012Z"
+generated: "2024-07-03T05:17:20.527204567Z"
