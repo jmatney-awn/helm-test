@@ -40,11 +40,11 @@ spec:
               subPath: proxy_params
               name: nginx
               readOnly: true
-            - mountPath: /etc/nginx/sites-available/autos
+            - mountPath: /etc/nginx/sites-enabled/autos
               subPath: autos
               name: nginx
               readOnly: true
-            - mountPath: /etc/nginx/sites-available/default
+            - mountPath: /etc/nginx/sites-enabled/default
               subPath: default
               name: nginx
               readOnly: true
