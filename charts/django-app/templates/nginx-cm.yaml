@@ -56,7 +56,7 @@ data:
 
       location / {
         include proxy_params;
-        proxy_pass http://unix:/run/gunicorn.sock;
+        proxy_pass http://app-service:8000/;
       }
     }
   default: |
