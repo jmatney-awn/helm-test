@@ -28,19 +28,19 @@ spec:
           volumeMounts:
             - mountPath: /etc/nginx/nginx.conf
               subPath: nginx.conf
-              name: nginx.conf
+              name: nginx
               readOnly: true
             - mountPath: /etc/nginx/proxy_params
               subPath: proxy_params
-              name: proxy_params
+              name: nginx
               readOnly: true
             - mountPath: /etc/nginx/sites-available/autos
               subPath: autos
-              name: autos
+              name: nginx
               readOnly: true
             - mountPath: /etc/nginx/sites-available/default
               subPath: default
-              name: default
+              name: nginx
               readOnly: true
             - mountPath: "/data/static"
               name: staticfiles
