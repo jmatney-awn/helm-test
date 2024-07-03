@@ -27,5 +27,5 @@ spec:
           ports:
             - containerPort: 8000
           volumeMounts:
-            - mountPath: "/data/static"
+            - mountPath: "/autosstatic/static"
               name: staticfiles

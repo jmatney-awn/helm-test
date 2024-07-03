@@ -9,4 +9,4 @@ data:
   DB_PASSWORD: "~N1ghtT3mpo@"
   DB_NAME: "autosdb"
   DB_PORT: "5432"
-  STATIC_ROOT: "/data/static"
+  STATIC_ROOT: "/autosstatic/static"
